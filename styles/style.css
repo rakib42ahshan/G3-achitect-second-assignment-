@@ -97,19 +97,21 @@ a {
 .ft-heading {
     border-left: 3px solid #FF900E;
 }
-.ft-individual{
+
+.ft-individual {
     margin-bottom: 1.5rem;
     margin-right: 24px;
     padding: 20px 10px 12px 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
+
 .heading-3 {
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.second-btn{
+.second-btn {
     background: #FF900E;
     border: none;
     border-radius: 8px;
@@ -117,4 +119,81 @@ a {
     font-size: 20px;
     font-weight: 600;
     margin-top: -70px;
+}
+
+/* some facts section */
+.some-facts {
+    margin: 3.125rem;
+}
+
+.achievement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.each-achievement {
+    width: 241.83px;
+    height: 241.83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+/* bonus section\running projects */
+
+.running-projects {
+    margin: 3.215rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.each-project {
+    text-align: center;
+}
+
+.running-img {
+    width: 100px;
+    height: 100px;
+}
+
+/* sponsors section style */
+.sponsors {
+    margin: 3.125rem;
+}
+
+.sponsor-detail {
+    text-align: center;
+}
+
+.sponsor-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsor-list img {
+    filter: grayscale(100%);
+}
+
+/* footer section */
+footer {
+    padding: 3.125rem;
+}
+
+.foot {
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 10px;
+}
+
+.foot-para {
+    font-weight: 400;
+    font-size: 20px;
 }

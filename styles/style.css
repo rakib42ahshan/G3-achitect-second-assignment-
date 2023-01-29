@@ -114,6 +114,9 @@ a {
     margin-bottom: 10px;
 }
 
+.ft-img{
+    width: 100%;
+}
 .second-btn {
     background: #FF900E;
     border: none;
@@ -136,8 +139,8 @@ a {
 }
 
 .each-achievement {
-    width: 241.83px;
-    height: 241.83px;
+    width: 220px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,4 +215,36 @@ footer {
 .foot-para {
     font-weight: 400;
     font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+    .banner-top{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .navigate{
+        flex-direction: column;
+    }
+    .team-and-quick{
+        flex-direction: column;
+    }
+    .team{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .features{
+        flex-direction: column-reverse;
+    }
+    .achievement {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 5px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .sponsor-list{
+        display: grid;
+        grid-template-columns: repeat(2,0.75fr);
+        gap: 10px;
+    }
 }

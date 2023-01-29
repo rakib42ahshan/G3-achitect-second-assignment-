@@ -1,0 +1,120 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* banner starts */
+.banner {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* title and nav-bar styles */
+.banner-top {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    text-align: center;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+/* main section of banner */
+.banner-main {
+    text-align: center;
+}
+
+.heading-1 {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.common-para {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.primary-btn {
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 3.125rem;
+}
+
+.banner-img {
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+/* team and quick feature */
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-right: 1.5rem;
+}
+
+.team-and-quick {
+    display: flex;
+    margin: 3.125rem;
+    align-items: center;
+}
+
+/* features section style */
+
+.features {
+    display: flex;
+    margin: 3.125rem;
+}
+
+.ft-heading {
+    border-left: 3px solid #FF900E;
+}
+.ft-individual{
+    margin-bottom: 1.5rem;
+    margin-right: 24px;
+    padding: 20px 10px 12px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.heading-3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.second-btn{
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -70px;
+}
